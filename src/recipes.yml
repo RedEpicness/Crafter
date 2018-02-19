@@ -1,0 +1,21 @@
+##########################################
+#                                        #
+#       Recipes Configuration file       #
+#                                        #
+##########################################
+
+recipes:
+  - amount: 10
+    result: DIAMOND_SWORD
+    shapeless: true
+    removeVanillaRecipe: false
+    items:
+    - GOLD_BLOCK%2
+    - DIRT%2
+  - result: test_sword
+    shapeless: false
+    removeVanillaRecipe: false
+    items:
+    - GOLD_BLOCK%g
+    - DIRT%d
+    shape: "   %dgd% g "

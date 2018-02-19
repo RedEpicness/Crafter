@@ -1,0 +1,7 @@
+name: Crafter
+author: Red_Epicness
+version: 1.0
+main: me.redepicness.crafter.main
+commands:
+  material:
+  mat:

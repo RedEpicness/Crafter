@@ -1,0 +1,14 @@
+##########################################
+#                                        #
+#      Materials Configuration file      #
+#                                        #
+##########################################
+
+materials:
+  - id: "test_sword"
+    name: "Testing 123"
+    amount: 10
+    item: DIAMOND_SWORD
+    lore:
+    - "This is a test"
+    - "lore. For testing."
